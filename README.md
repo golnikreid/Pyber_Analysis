@@ -17,13 +17,13 @@ The purpose of this analysis is to create a summary DataFrame of the ride-sharin
 ## Results
 The analysis of PyBer data involved grouping the data by the city type (Rural, Suburban, and Urban). From there, the total rides, drivers and fares are summed up. With those, we can find the average fare per ride and average fare per driver as seen in the chart below:
 
-![Summary](Resources/SummaryDataFrame.png)
+![SummaryDataFrame](analysis/SummaryDataFrame.png)
 
 From the table, we can see that Average Fare per Ride and per Driver is highest in rural cities and lowest in urban cities.
 
 To switch gears and analyze the fare overtime based on city type we go back to the original data. and group it by type then date. Next create a pivot table and plot it. The graph can be seen below:
 
-![PyBer Fare Summary](Resources/PyBer_fare_summary.png)
+![PyBer_fare_summary](analysis/PyBer_fare_summary.png)
 
   
 As can be seen from the graph, the total fare over this time period is always highest in urban cities and always lowest in rural cities.
